@@ -10,6 +10,8 @@ public class Extractor {
         System.out.println("INFO: Extracting accounts...");
         ArrayList<IAccount> accounts = (ArrayList<IAccount>) (new AccountDAO()).Extract(datasource);
 
+
+
         System.out.println("INFO: Extracting transactions...");
     }
 }

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8db78e7-9312-4a93-a271-6d981e47787f" name="Default Changelist" comment="" />
+    <list default="true" id="b8db78e7-9312-4a93-a271-6d981e47787f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.28.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jGnuCashSql2Qif.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jGnuCashSql2Qif.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/IAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/IAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/dal/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/dal/AccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/IAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/IAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/dal/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/dal/AccountDAO.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +32,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Rkf4thPtUbokUYIMp8t8AVG20B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-cli-1.4/commons-cli-1.4.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/sqlite-jdbc-3.28.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,7 +67,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.maxtech.gnucash.sqlqif.Main" />
       <module name="jGnuCashSql2Qif" />
-      <option name="PROGRAM_PARAMETERS" value="-d &quot;$USER_HOME$/Downloads/gnucashtoqif/accounts.sql.gnucash.sqlite&quot; -o &quot;$USER_HOME$/Downloads/gnucashtoqif/output.qif&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="-d &quot;$USER_HOME$/Downloads/gnucashtoqif/accounts.sql.gnucash.sqlite&quot; -o &quot;$USER_HOME$/Downloads/gnucashtoqif/joutput.qif&quot;" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -73,13 +93,32 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/Main.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/dal/AccountDAO.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
