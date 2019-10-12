@@ -1,14 +1,20 @@
 package com.maxtech.gnucash.sqlqif.library.bll;
 
+import java.util.ArrayList;
+
 public class Category implements IAccount {
 
-    public String Guid;
-    public String Name;
-    public String Description;
-    public String AccountType;
-    public String Hierarchy;
-    public int HierarchyLevel;
-    public Iterable<ITransaction> Transactions;
+    private String Guid;
+    private String Name;
+    private String Description;
+    private String AccountType;
+    private String Hierarchy;
+    private int HierarchyLevel;
+    private Iterable<ITransaction> Transactions;
+
+    public Category() {
+        Transactions = new ArrayList<>();
+    }
 
     @Override
     public Iterable<ITransaction> Transactions() {

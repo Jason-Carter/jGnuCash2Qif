@@ -3,21 +3,21 @@ package com.maxtech.gnucash.sqlqif.library.bll;
 import java.util.ArrayList;
 
 public class Account implements IAccount {
-    public Account ()
-    {
-        Transactions = new ArrayList<ITransaction>();
+
+    private String Guid;
+    private String Name;
+    private String Description;
+    private String AccountType;
+    private String Hierarchy;
+    private int HierarchyLevel;
+    private ArrayList<ITransaction> Transactions;
+
+    public Account() {
+        Transactions = new ArrayList<>();
     }
 
-    public String Guid;
-    public String Name;
-    public String Description;
-    public String AccountType;
-    public String Hierarchy;
-    public int HierarchyLevel;
-    public Iterable<ITransaction> Transactions;
-
     @Override
-    public Iterable<ITransaction> Transactions() {
+    public ArrayList<ITransaction> Transactions() {
         return Transactions;
     }
 

@@ -1,14 +1,19 @@
 package com.maxtech.gnucash.sqlqif.library.bll;
 
 import java.util.Date;
-import java.util.List;
 
 public interface ITransaction {
-    public String TransactionGuid();
-    public Date DatePosted();
-    public String Ref();
-    public String Description();
-    public String Memo();
-    public List<IAccountSplit> AccountSplits();
-    public List<IAccount> ParentAccounts();
+    String getTransactionGuid();
+    void setTransactionGuid(String guid);
+    Date getDatePosted();
+    void setDatePosted(Date datePosted);
+    String getRef();
+    void setRef(String ref);
+    String getDescription();
+    void setDescription(String description);
+    String getMemo();
+    void setMemo(String memo);
+
+    Iterable<IAccountSplit> AccountSplits();
+    Iterable<IAccount> ParentAccounts();
 }
