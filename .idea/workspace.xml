@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8db78e7-9312-4a93-a271-6d981e47787f" name="Default Changelist" comment="" />
+    <list default="true" id="b8db78e7-9312-4a93-a271-6d981e47787f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/ICashOutputter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/QifCashOutputter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
