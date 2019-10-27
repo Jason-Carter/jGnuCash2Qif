@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8db78e7-9312-4a93-a271-6d981e47787f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/ICashOutputter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/QifCashOutputter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/Extractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/Extractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/IAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/IAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/ITransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/ITransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/bll/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/dal/TransactionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jGnuCashSql2Qif/com/maxtech/gnucash/sqlqif/library/dal/TransactionDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/Extractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/ICashOutputter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/ICashOutputter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/QifCashOutputter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/QifCashOutputter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/IAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/IAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/ITransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/ITransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/bll/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/dal/TransactionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxtech/gnucash/sqlqif/library/dal/TransactionDAO.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +119,8 @@
       <configuration name="Application">
         <watch expression="trx" />
         <watch expression="trx" language="JAVA" />
+        <watch expression="rs.getString(&quot;DatePosted&quot;)" language="JAVA" />
+        <watch expression="formatter.parse(rs.getString(&quot;DatePosted&quot;))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

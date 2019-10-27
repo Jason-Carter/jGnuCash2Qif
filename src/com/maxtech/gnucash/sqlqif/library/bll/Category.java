@@ -10,14 +10,14 @@ public class Category implements IAccount {
     private String AccountType;
     private String Hierarchy;
     private int HierarchyLevel;
-    private Iterable<ITransaction> Transactions;
+    private ArrayList<ITransaction> Transactions;
 
     public Category() {
         Transactions = new ArrayList<>();
     }
 
     @Override
-    public Iterable<ITransaction> Transactions() {
+    public ArrayList<ITransaction> Transactions() {
         return Transactions;
     }
 

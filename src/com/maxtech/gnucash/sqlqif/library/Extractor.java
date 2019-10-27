@@ -13,14 +13,14 @@ public class Extractor {
         ArrayList<IAccount> accounts = (ArrayList<IAccount>) new AccountDAO().Extract(datasource);
 
         // debugging, just printing these out for now...
-        accounts.forEach(a -> System.out.println(a.getName()));
+        //accounts.forEach(a -> System.out.println(a.getName()));
 
         System.out.println("INFO: Extracting transactions...");
         try {
             // Note: the transactions are added onto the accounts ArrayList so fine for this to go out of scope
             ArrayList<ITransaction> transactions = (ArrayList<ITransaction>) new TransactionDAO().Extract(datasource, accounts);
             // debugging, just printing these out for now...
-            transactions.forEach(t -> System.out.println(t.getDescription()));
+            //transactions.forEach(t -> System.out.println(t.getDescription()));
         }
         catch(Exception ex) {
             System.err.println(String.format("ERROR: The following error occurred while extracting transactions: %s", ex.getMessage()));

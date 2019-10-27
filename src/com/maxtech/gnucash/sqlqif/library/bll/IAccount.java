@@ -1,8 +1,10 @@
 package com.maxtech.gnucash.sqlqif.library.bll;
 
+import java.util.ArrayList;
+
 public interface IAccount {
 
-    Iterable<ITransaction> Transactions();
+    ArrayList<ITransaction> Transactions();
 
     String getGuid();
     void setGuid(String guid);

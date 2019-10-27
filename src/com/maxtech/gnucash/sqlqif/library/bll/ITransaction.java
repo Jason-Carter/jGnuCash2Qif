@@ -1,5 +1,6 @@
 package com.maxtech.gnucash.sqlqif.library.bll;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public interface ITransaction {
@@ -14,6 +15,6 @@ public interface ITransaction {
     String getMemo();
     void setMemo(String memo);
 
-    Iterable<IAccountSplit> AccountSplits();
-    Iterable<IAccount> ParentAccounts();
+    ArrayList<IAccountSplit> AccountSplits();
+    ArrayList<IAccount> ParentAccounts();
 }

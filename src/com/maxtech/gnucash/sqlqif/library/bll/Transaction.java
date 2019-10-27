@@ -16,8 +16,8 @@ public class Transaction implements ITransaction {
     private String Description;
     private String Memo;
 
-    private Iterable<IAccountSplit> AccountSplits;
-    private Iterable<IAccount> ParentAccounts;
+    private ArrayList<IAccountSplit> AccountSplits;
+    private ArrayList<IAccount> ParentAccounts;
 
     @Override
     public String getTransactionGuid() {
@@ -61,7 +61,7 @@ public class Transaction implements ITransaction {
 
     @Override
     public String getMemo() {
-        return Memo;
+        return Memo == null ? "" : Memo;
     }
 
     @Override
@@ -70,12 +70,12 @@ public class Transaction implements ITransaction {
     }
 
     @Override
-    public Iterable<IAccountSplit> AccountSplits() {
+    public ArrayList<IAccountSplit> AccountSplits() {
         return AccountSplits;
     }
 
     @Override
-    public Iterable<IAccount> ParentAccounts() {
+    public ArrayList<IAccount> ParentAccounts() {
         return ParentAccounts;
     }
 }

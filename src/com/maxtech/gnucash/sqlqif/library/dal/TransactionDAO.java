@@ -15,7 +15,7 @@ public class TransactionDAO {
 
         String connectionString = String.format("jdbc:sqlite:%s", dataSource);
         ArrayList<ITransaction> transactions = new ArrayList<>();
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd", Locale.ENGLISH);
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
 
         Connection connection = null;
 
